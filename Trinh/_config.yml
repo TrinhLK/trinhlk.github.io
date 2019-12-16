@@ -1,0 +1,21 @@
+
+title: My Resume
+url: 'http://junlulocky.com'
+baseurl: '/Trinh' #change it according to your repository name
+
+
+
+# Profile information
+yourname: Le Khanh Trinh  ## put your name
+title: 'RESEARCHER'  ## your title
+location: Lille, France
+
+
+## Social Profiles
+facebook: http://www.facebook.com  ## your facebook account url
+twitter: http://www.twitter.com  ## your twitter account url
+linkedin: http://www.linkedin.com  ## your linkedin account url
+github: http://www.dribble.com  ## you dribbble account url
+
+
+# Update all the sections by editing the files inside _includes folder.
