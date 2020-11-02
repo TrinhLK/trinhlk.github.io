@@ -705,8 +705,8 @@ pre code {
     }
 }
 .row {
-    margin: auto;
-    width: 80%;
+    margin-right: -5px;
+    margin-left: -5px
 }
 .row:before,
 .row:after {
