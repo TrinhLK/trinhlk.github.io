@@ -1,20 +1,28 @@
-
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> 
-<html lang="no-js"> <!--<![endif]-->  
+<html lang="en">
 {% include head.html %}
 
 <body>
-    
-     
-      {{content}}
-      <!-- </div> -->
- 
-<!-- {% include footer.html %} -->
+
+	 <div class="main-body">	
+	    <div class="container">
+	        <div class="row">               
+	            <div class="main-page">
+	            {% include /navigation.html %}
+				{{content}}
+				
+				{% include footer.html %}
+	    		</div> 
+			</div> 
+		</div> 
+	</div> 
+
  
 {% include scripts.html %}
 </body>
 </html> 
+
+
+   
+    
 

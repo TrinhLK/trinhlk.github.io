@@ -1,21 +1,22 @@
 
-title: My Resume
+title: My Resume # your title
 url: 'http://junlulocky.com'
-baseurl: '/Trinh' #change it according to your repository name
+baseurl: '/online-cv' #change it according to your repository name
 
 
 
 # Profile information
-yourname: Le Khanh Trinh  ## put your name
-title: 'RESEARCHER'  ## your title
-location: Lille, France
+yourname: Brown Smith  ## put your name
+location: San Francisco , CA
 
 
 ## Social Profiles
-facebook: http://www.facebook.com/trinh.lekhanh1  ## your facebook account url
-twitter: http://www.twitter.com/TrinhLeKhanh  ## your twitter account url
-linkedin: http://www.linkedin.com/in/lê-khánh-trình-874994152/  ## your linkedin account url
-github: https://github.com/TrinhLK  ## you dribbble account url
+facebook: http://www.facebook.com  ## your facebook account url
+twitter: http://www.twitter.com  ## your twitter account url
+linkedin: http://www.linkedin.com  ## your linkedin account url
+dribbble: http://www.dribble.com  ## you dribbble account url
+foursquare: http://www.foursquare.com  ## your foursquare account url
+
 
 
 # Update all the sections by editing the files inside _includes folder.
