@@ -254,10 +254,10 @@ h2.resp-tab-title:last-child {
     padding: 0;
     background-color: #f4f4f4;
     float: left;
-    width: 100%;
+    width: 90%;
     height: 580px;
     clear: none;
-    margin-left: 13px;
+    margin-left: 0px;
 }
 .resp-vtabs .resp-tab-content {
     border: none;
