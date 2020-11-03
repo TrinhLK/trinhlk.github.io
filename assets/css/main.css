@@ -230,7 +230,7 @@ h2.resp-tab-title:last-child {
 
 .resp-vtabs ul.resp-tabs-list {
     float: left;
-    width: 9%;
+    width: 42px;
     margin-bottom: 10px;
 }
 .resp-vtabs .resp-tabs-list li {
