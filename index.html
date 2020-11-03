@@ -86,7 +86,7 @@ layout: default
         	
             
             <!-- Name -->
-             <div id="profile_social" style="float: center">
+             <div id="profile_social">
                 <h6>My Social Profiles</h6>
     			
                 <a href="{{site.facebook}}"><i class="fa fa-facebook"></i></a>
@@ -114,24 +114,12 @@ layout: default
                 <i class="fa fa-user icon_menu icon_menu_active"></i>
             </li>
 
-            <li class="tabs-resume hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a resume" data-tab-name="resume"> 
+            <li class="tabs-resume hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="resume"> 
                 <span class="tite-list">resume</span>
                 <i class="fa fa-tasks icon_menu"></i>
             </li>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <li class="tabs-contact hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a contact" data-tab-name="contact" style="margin-bottom: 48px !important;"> 
-=======
             <li class="tabs-contact hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="contact" style="margin-bottom: 48px !important;"> 
->>>>>>> parent of 422901a... test respond
-=======
-            <li class="tabs-contact hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="contact" style="margin-bottom: 48px !important;"> 
->>>>>>> parent of 422901a... test respond
-=======
-            <li class="tabs-contact hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="contact" style="margin-bottom: 48px !important;"> 
->>>>>>> parent of 422901a... test respond
                 <span class="tite-list">contact</span>
                 <i class="fa fa-envelope icon_menu"></i> 
             </li>
@@ -145,9 +133,13 @@ layout: default
 
         <!-- resp-tabs-container --> 
         <div class="resp-tabs-container">
+
             {% include /profile.html %}
+
             {% include /cv.html %}
+
             {% include /contact.html %}
+
         </div>
     <!-- End #resp-tabs-container --> 
 

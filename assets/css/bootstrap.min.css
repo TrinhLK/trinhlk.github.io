@@ -668,8 +668,8 @@ pre code {
     overflow-y: scroll
 }
 .container {
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
     margin-right: auto;
     margin-left: auto
 }
@@ -691,22 +691,22 @@ pre code {
 }
 @media(min-width:768px) {
     .container {
-        width: 100%
+        width: 750px
     }
 }
 @media(min-width:992px) {
     .container {
-        width: 100%
+        width: 970px
     }
 }
 @media(min-width:1200px) {
     .container {
-        width: 100%
+        width: 1170px
     }
 }
 .row {
-    margin-right: -15px;
-    margin-left: -15px
+    margin-right: -5px;
+    margin-left: -5px
 }
 .row:before,
 .row:after {
@@ -1125,7 +1125,7 @@ pre code {
         width: 58.333333333333336%
     }
     .col-md-6 {
-        width: 100%
+        width: 50%
     }
     .col-md-5 {
         width: 41.66666666666667%
