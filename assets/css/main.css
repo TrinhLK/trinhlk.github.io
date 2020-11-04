@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     overflow: hidden;
     position: absolute;
     top: 50%; 
-    margin: -290.5px auto 0 auto;
+    margin: -320px auto 0 auto;
 }
 h1 {
     font-size: 18px;
