@@ -5,7 +5,7 @@
 
 @media (min-width: 1200px) {
     .container {
-        width: 1130px !important;
+        width: 80% !important;
     }
 }
 
@@ -255,7 +255,7 @@ h2.resp-tab-title:last-child {
     background-color: #f4f4f4;
     float: left;
     width: 88%;
-    height: 650px;
+    height: 580px;
     clear: none;
     margin-left: 13px;
 }
@@ -578,7 +578,7 @@ h2.resp-accordion:hover {
 }
 
 .content_2 {
-    height: 650px;
+    height: 580px;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;		
@@ -939,7 +939,7 @@ ul.about {
 ---------------------------------------------------*/
 
 .widget-profil{
-    height: 650px;   
+    height: 580px;   
     float: right; 
 }
 .widget-profil .circle {
