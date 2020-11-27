@@ -86,6 +86,11 @@ jQuery(document).ready(function($) {
         animation_style = $('.dropdown-select').val();
     });
 
+    $("#verticalTab a").each(function(i){ // Loop through all the links
+    if(document.location.hash == $(this).attr("href")){ // Compare the value from the url with the id
+        $(this).tab('show'); // If equal add class active
+    }
+    });
 
     $('ul.resp-tabs-list li[class^=tabs-]').click(function() {
 
