@@ -86,9 +86,10 @@ jQuery(document).ready(function($) {
         animation_style = $('.dropdown-select').val();
     });
 
+
     $('ul.resp-tabs-list li[class^=tabs-]').click(function() {
 
-        var tab_name = $(this).attr('href');
+        var tab_name = $(this).attr('data-tab-name');
 
         $('.resp-tabs-container').addClass('animated ' + animation_style);
         $('.resp-tabs-container').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -105,13 +106,10 @@ jQuery(document).ready(function($) {
                 autoScrollOnFocus: false
             }
         });
-        if(document.location.hash == $(this).attr("href")){ // Compare the value from the url with the id
-            $(this).tab('show'); // If equal add class active
-        }
-/*
+
         if (tab_name == "contact")
             initialize();
-*/
+
         return false;
     });
 
