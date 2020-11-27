@@ -91,10 +91,10 @@ jQuery(document).ready(function($) {
         $(this).tab('show'); // If equal add class active
     }
     });
-
+/*
     $('ul.resp-tabs-list li[class^=tabs-]').click(function() {
 
-        var tab_name = $(this).attr('href');
+        var tab_name = $(this).attr('data-tab-name');
 
         $('.resp-tabs-container').addClass('animated ' + animation_style);
         $('.resp-tabs-container').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
