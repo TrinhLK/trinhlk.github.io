@@ -106,10 +106,10 @@ jQuery(document).ready(function($) {
                 autoScrollOnFocus: false
             }
         });
-
+/*
         if (tab_name == "contact")
             initialize();
-
+*/
         return false;
     });
 
