@@ -1077,11 +1077,22 @@ ul.about {
 }
 
 .social-box a {  
-  color: white;
-  font-size: 2em;
-  margin: auto;
-  text-align: center;
-  vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0px 0px 0px 5px;
+    padding: 0;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    font-size: 24px;
+    float: left;
+    display: block;
+    color : #fff;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
 }
 
 .container div:last-child {
