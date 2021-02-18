@@ -1060,12 +1060,13 @@ ul.about {
   text-align: center;
 }
 .social-box {
-  display: inline-block;
-  width: 3em;
-  height: 3em;
-  margin-right: 1em;
-  background-color: steelblue;
-  text-align: center;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0px 0px 0px 5px;
+    padding: 0;
+    text-align: center;
 }
 
 .social-box:before {
