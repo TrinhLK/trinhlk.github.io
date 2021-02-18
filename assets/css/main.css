@@ -1067,15 +1067,6 @@ ul.about {
     margin: 0px 0px 0px 5px;
     padding: 0;
     text-align: center;
-    background-color: darkblue;
-}
-
-.social-box:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em; /* Adjusts for spacing */
 }
 
 .social-box a {  
