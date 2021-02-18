@@ -1056,6 +1056,38 @@ ul.about {
     z-index: 1;
 }
 
+.social-container {
+  text-align: center;
+}
+.social-box {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  margin-right: 1em;
+  background-color: steelblue;
+  text-align: center;
+}
+
+.social-box:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.social-box a {  
+  color: white;
+  font-size: 2em;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.container div:last-child {
+  margin-right: 0;
+}
+
 @media only screen and (min-width: 1200px) {
 
     .widget-profil #profile_social a{ 
