@@ -461,6 +461,11 @@ jQuery(document).ready(function($) {
         return false;
     });
 
-
-
+    /* ---------------------------------------------------------------------- */
+    /* ---------------------------- tab links ------------------------------- */
+    /* ---------------------------------------------------------------------- */
+    $(".resp-tabs-list").click(function(){
+    var tabid = $(this).attr("data-tab-name");    // this gets the id of the element you want to trigger
+    $("#"+tabid).click();   /// this acts as if you clicked on that tab element
+});
 });
