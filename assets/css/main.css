@@ -1019,6 +1019,36 @@ ul.about {
     padding-top: 15px;
 }
 
+.widget-profil #degree {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: -8px;
+    color: #839ccf;
+}
+
+.widget-profil #profile_contact {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-top: 1px solid #839ccf;
+}
+
+.widget-profil #profile_contact p {
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: #839ccf;
+}
+
+.widget-profil #profile_contact p i {
+    width: 18px;
+    margin-right: 6px;
+}
+
+.widget-profil #profile_contact p a {
+    color: #839ccf;
+}
+
 #profile_social a{
     width: 45px;
     height: 45px;
