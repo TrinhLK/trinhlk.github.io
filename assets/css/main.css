@@ -707,6 +707,11 @@ h2.resp-accordion:hover {
         margin-right: 0;
     }
 
+    .container > .row > .col-md-12 > .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
 }
 
 @media only screen and (max-width: 550px) {
@@ -1350,12 +1355,12 @@ ul.about {
 #profile .col-md-6 ul li {
     list-style: none;
     margin-top: 0;
-    padding-bottom: 25px;
-    margin-bottom: 25px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
     border-bottom: 1px solid #e6e6e6;
 }
 #profile .profile-l ul li h5 {
-    padding-bottom: 10px;
+    padding-bottom: 6px;
 }
 
 #profile .attributes li.first{
@@ -1371,24 +1376,24 @@ ul.about {
 }
 
 #profile h5 {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     color: #333;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 #profile h6 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: #3B5998;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 #profile .attributes p {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     color: #666;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 
 .img_reference {
