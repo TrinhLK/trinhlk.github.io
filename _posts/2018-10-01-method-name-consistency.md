@@ -1,11 +1,12 @@
 ---
-title: Checking the consistency of method names
+title: Checking the Consistency of Method Names
 date: 2018-10-01
+category: research
 collaborators:
   - UT Dallas, USA
 tags:
-  - python
-  - machine learning
+  - Program Analysis
+  - Machine Learning
 image: images/blog/Jaist.jpg
 ---
 
