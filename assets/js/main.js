@@ -118,8 +118,8 @@ jQuery(document).ready(function($) {
 
         if (window.matchMedia("(max-width: 800px)").matches) {
             $(".content_2").mCustomScrollbar("destroy");
-            $(".resp-vtabs .resp-tabs-container").css("height", "100%");
-            $(".content_2").css("height", "100%");
+            $(".resp-vtabs .resp-tabs-container").css({"height": "auto", "min-height": "100%"});
+            $(".content_2").css({"height": "auto", "min-height": "100%"});
         } else {
 
             $(".resp-vtabs .resp-tabs-container").css("height", "650px");
