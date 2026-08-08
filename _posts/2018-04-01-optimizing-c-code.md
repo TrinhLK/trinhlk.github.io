@@ -1,6 +1,7 @@
 ---
 title: Optimizing C code for parallel compiler
 date: 2018-04-01
+category: blog
 collaborators:
   - GAIO company
 tags:

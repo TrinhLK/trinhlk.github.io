@@ -306,7 +306,7 @@ jQuery(document).ready(function($) {
     /* -------------------------------- skillbar ---------------------------- */
     /* ---------------------------------------------------------------------- */
 
-    $('.tabs-resume').click(function() {
+    $('.tabs-research').click(function() {
 
         $('.skillbar').each(function() {
             $(this).find('.skillbar-bar').width(0);
@@ -320,7 +320,7 @@ jQuery(document).ready(function($) {
 
     });
 
-    $('#resume').prev('h2.resp-accordion').click(function() {
+    $('#research').prev('h2.resp-accordion').click(function() {
 
         $('.skillbar').each(function() {
             $(this).find('.skillbar-bar').width(0);

@@ -39,6 +39,64 @@
 <!-- Credits: http://themeforest.net/user/FlexyCodes -->
 <script type="text/javascript" src="assets/js/main.js"></script>
 
+<!-- Google Scholar publications auto-fetch -->
+<script type="text/javascript">
+(function() {
+    var GS_URL = 'https://scholar.google.com/citations?user=Y1d3evoAAAAJ&hl=vi&output=rss';
+    var PROXIES = [
+        function(url) { return 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url); },
+        function(url) { return 'https://corsproxy.io/?url=' + encodeURIComponent(url); }
+    ];
+
+    function render(items) {
+        var container = document.getElementById('publications-list');
+        if (!container || items.length === 0) return;
+        container.innerHTML = '';
+        var ul = document.createElement('ul');
+        ul.style.cssText = 'padding-left:15px;list-style:decimal;';
+        items.slice(0, 10).forEach(function(item) {
+            var li = document.createElement('li');
+            li.style.cssText = 'margin-bottom:12px;list-style:decimal;';
+            var a = document.createElement('a');
+            a.href = item.link;
+            a.target = '_blank';
+            a.style.cssText = 'color:#3b5998;';
+            a.textContent = item.title;
+            li.appendChild(a);
+            if (item.desc) {
+                var p = document.createElement('p');
+                p.style.cssText = 'font-size:13px;color:#666;line-height:20px;margin:4px 0 0 0;';
+                p.textContent = item.desc;
+                li.appendChild(p);
+            }
+            ul.appendChild(li);
+        });
+        container.appendChild(ul);
+    }
+
+    function tryFetch(i) {
+        if (i >= PROXIES.length) return; // fallback list already in HTML
+        fetch(PROXIES[i](GS_URL))
+            .then(function(r) { return r.text(); })
+            .then(function(xml) {
+                var doc = new DOMParser().parseFromString(xml, 'text/xml');
+                if (doc.querySelector('parsererror')) throw new Error('parse error');
+                var items = Array.prototype.slice.call(doc.querySelectorAll('item')).map(function(it) {
+                    return {
+                        title: (it.querySelector('title') || {}).textContent || '',
+                        link: (it.querySelector('link') || {}).textContent || '',
+                        desc: (it.querySelector('description') || {}).textContent || ''
+                    };
+                }).filter(function(it) { return it.title && it.link; });
+                if (items.length) render(items);
+            })
+            .catch(function() { tryFetch(i + 1); });
+    }
+
+    tryFetch(0);
+})();
+</script>
+
 <!-- code js for image rotate -->
 <script type="text/javascript">
 

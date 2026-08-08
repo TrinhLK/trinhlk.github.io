@@ -1,6 +1,7 @@
 ---
 title: On-going PhD project
 date: 2019-10-01
+category: blog
 collaborators:
   - Simon Bliudze
   - Philippe Merle

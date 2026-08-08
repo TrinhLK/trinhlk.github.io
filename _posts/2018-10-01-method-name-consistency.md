@@ -1,6 +1,7 @@
 ---
 title: Checking the consistency of method names
 date: 2018-10-01
+category: blog
 collaborators:
   - UT Dallas, USA
 tags:
