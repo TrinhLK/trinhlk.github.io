@@ -1,12 +1,11 @@
 ---
-title: Optimizing C Code for Parallel Compiler
+title: Optimizing C code for parallel compiler
 date: 2018-04-01
-category: research
 collaborators:
-  - GAIO Company
+  - GAIO company
 tags:
-  - Program Analysis
-  - Compiler Optimization
+  - C
+  - ANTLR
 image: images/blog/UET-VNU.jpg
 ---
 

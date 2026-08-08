@@ -306,7 +306,7 @@ jQuery(document).ready(function($) {
     /* -------------------------------- skillbar ---------------------------- */
     /* ---------------------------------------------------------------------- */
 
-    $('.tabs-research').click(function() {
+    $('.tabs-resume').click(function() {
 
         $('.skillbar').each(function() {
             $(this).find('.skillbar-bar').width(0);
