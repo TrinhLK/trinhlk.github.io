@@ -1034,19 +1034,31 @@ ul.about {
 }
 
 .widget-profil #profile_contact p {
-    text-align: left;
+    text-align: center;
     margin-bottom: 8px;
     font-size: 13px;
     color: #839ccf;
 }
 
 .widget-profil #profile_contact p i {
-    width: 18px;
     margin-right: 6px;
 }
 
 .widget-profil #profile_contact p a {
     color: #839ccf;
+}
+
+.research-projects-grid {
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.research-project-item {
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
 }
 
 #profile_social a{
@@ -1192,6 +1204,10 @@ ul.about {
     }
     #profile_desc {
         display:none;
+    }
+
+    .research-projects-grid {
+        column-count: 1;
     }
 
     .widget-profil .social-container {
