@@ -1036,14 +1036,14 @@ ul.about {
 .widget-profil #profile_contact {
     padding-top: 15px;
     padding-bottom: 5px;
-    border-top: 1px solid #839ccf;
+    border-top: 1px solid rgba(255,255,255,0.3);
 }
 
 .widget-profil #profile_contact p {
     text-align: center;
     margin-bottom: 8px;
     font-size: 13px;
-    color: #839ccf;
+    color: #fff;
 }
 
 .widget-profil #profile_contact p i {
@@ -1051,7 +1051,7 @@ ul.about {
 }
 
 .widget-profil #profile_contact p a {
-    color: #839ccf;
+    color: #fff;
 }
 
 .research-projects-grid {
